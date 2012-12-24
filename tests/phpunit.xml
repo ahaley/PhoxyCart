@@ -1,0 +1,11 @@
+<phpunit bootstrap="./Bootstrap.php" colors="true">
+    <testsuites>
+        <testsuite name="foxycart test suite">
+            <directory>./unit</directory>
+        </testsuite>
+    </testsuites>
+    <groups>
+        <exclude>
+        </exclude>
+    </groups>
+</phpunit>
