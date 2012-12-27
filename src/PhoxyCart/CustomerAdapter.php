@@ -13,11 +13,11 @@ class CustomerAdapter
 
     public function getCustomerList()
     {
-        $foxyResponse = $this->api->call('customer_list');
+        $response = $this->api->call('customer_list');
 
         $customers = array();
-        foreach ($foxyResponse->customers as $customer) {
-            $customers[] = $customer->customer;
+        foreach ($response->customers->customer as $customer) {
+            $customers[] = $customer;
         }
 
         return $customers;
@@ -26,11 +26,19 @@ class CustomerAdapter
 
     public function getCustomer($email)
     {
-        $foxyResponse = $this->api->call('customer_get',
+        $response = $this->api->call('customer_get',
             array('customer_email' => $email)
         );
+        return $response;
+    }
 
-        print_r($foxyResponse);
-        die();
+    public function createCustomer($email, $hash, $salt)
+    {
+        $response = $this->api->call('customer_save', array(
+            'customer_email' => $email,
+            'customer_password_hash' => $hash,
+            'customer_password_salt' => $salt
+        ));
+        return $response->result == 'SUCCESS';
     }
 }

@@ -33,14 +33,14 @@ class CustomerAdapterTest extends PHPUnit_Framework_TestCase
     /**
      * @test
      */
-     /*
     public function ShouldCreateCustomer()
     {
+        $hash = 'rApGEJL5kmRvvhR3sVk7h7qronY15kab';
+        $salt = 'dtjMDoG8nE1kf8ksJBuRmV7N8VOOSyS4';
         $adapter = new PhoxyCart\CustomerAdapter();
 
-        $result = $adapter->createCustomer('antonio.haley@gmail.com');
+        $result = $adapter->createCustomer('antonio.haley2@gmail.com', $hash, $salt);
 
         $this->assertTrue($result);
     }
-    */
 }

@@ -33,7 +33,7 @@ class FoxycartApi
         $response = trim(curl_exec($ch));
 
         if ($response === false) {
-            throw new Exception("CURL Error: " . curl_error($ch));
+            throw new \Exception("CURL Error: " . curl_error($ch));
         }
 
         $foxyResponse = simplexml_load_string($response, NULL, LIBXML_NOCDATA);
