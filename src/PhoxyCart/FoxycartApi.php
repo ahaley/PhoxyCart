@@ -46,13 +46,13 @@ class FoxycartApi
         $this->token = getenv('FOXYCART_TOKEN');
 
         if ($this->token === false) {
-            throw new Exception("Please set the environment variable FOXYCART_TOKEN to your api token.");
+            throw new \Exception("Please set the environment variable FOXYCART_TOKEN to your api token.");
         }
 
         $this->domain = getenv('FOXYCART_DOMAIN');
 
         if ($this->domain === false) {
-            throw new Exception("Please set the environment variable FOXYCART_DOMAIN to your shop's domain.");
+            throw new \Exception("Please set the environment variable FOXYCART_DOMAIN to your shop's domain.");
         }
     }
 }
