@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<foxydata>
+	<transactions>
+		<transaction>
+			<id><![CDATA[52769]]></id>
+			<store_id><![CDATA[9]]></store_id>
+			<store_version><![CDATA[0.7.0]]></store_version>
+			<is_test><![CDATA[1]]></is_test>
+			<is_hidden><![CDATA[0]]></is_hidden>
+			<data_is_fed><![CDATA[0]]></data_is_fed>
+			<transaction_date><![CDATA[2010-08-19 13:51:00]]></transaction_date>
+			<processor_response><![CDATA[Authorize.net Transaction ID:2154082799]]></processor_response>
+			<customer_id><![CDATA[193]]></customer_id>
+			<is_anonymous><![CDATA[0]]></is_anonymous>
+			<minfraud_score><![CDATA[0]]></minfraud_score>
+			<customer_first_name><![CDATA[Jörgé •™¡ªº]]></customer_first_name>
+			<customer_last_name><![CDATA[Cantú]]></customer_last_name>
+			<customer_company><![CDATA[-moz-bi ding:url(//businessi fo.co.uk/]]></customer_company>
+			<customer_address1><![CDATA[&amp;]]></customer_address1>
+			<customer_address2><![CDATA[]]></customer_address2>
+			<customer_city><![CDATA[seal beach]]></customer_city>
+			<customer_state><![CDATA[CA]]></customer_state>
+			<customer_postal_code><![CDATA[90740]]></customer_postal_code>
+			<customer_country><![CDATA[US]]></customer_country>
+			<customer_phone><![CDATA[]]></customer_phone>
+			<customer_email><![CDATA[test@example.com]]></customer_email>
+			<customer_ip><![CDATA[108.13.30.173]]></customer_ip>
+			<shipping_first_name><![CDATA[]]></shipping_first_name>
+			<shipping_last_name><![CDATA[]]></shipping_last_name>
+			<shipping_company><![CDATA[]]></shipping_company>
+			<shipping_address1><![CDATA[]]></shipping_address1>
+			<shipping_address2><![CDATA[]]></shipping_address2>
+			<shipping_city><![CDATA[]]></shipping_city>
+			<shipping_state><![CDATA[]]></shipping_state>
+			<shipping_postal_code><![CDATA[]]></shipping_postal_code>
+			<shipping_country><![CDATA[]]></shipping_country>
+			<shipping_phone><![CDATA[]]></shipping_phone>
+			<shipto_shipping_service_description><![CDATA[]]></shipto_shipping_service_description>
+			<purchase_order><![CDATA[]]></purchase_order>
+			<cc_number_masked><![CDATA[xxxxxxxxxxxx4242]]></cc_number_masked>
+			<cc_type><![CDATA[Visa]]></cc_type>
+			<cc_exp_month><![CDATA[08]]></cc_exp_month>
+			<cc_exp_year><![CDATA[2013]]></cc_exp_year>
+			<cc_start_date_month><![CDATA[06]]></cc_start_date_month>
+			<cc_start_date_year><![CDATA[2008]]></cc_start_date_year>
+			<cc_issue_number><![CDATA[01]]></cc_issue_number>
+			<product_total><![CDATA[47.55]]></product_total>
+			<tax_total><![CDATA[0.12]]></tax_total>
+			<shipping_total><![CDATA[25.93]]></shipping_total>
+			<order_total><![CDATA[73.6]]></order_total>
+			<payment_gateway_type><![CDATA[authorize]]></payment_gateway_type>
+			<receipt_url><![CDATA[http://themancan.foxycart.com/receipt?id=29e1200f11320a8f45a665fc264cca6f]]></receipt_url>
+			<taxes>
+				<tax>
+					<tax_rate><![CDATA[1.5000]]></tax_rate>
+					<tax_name><![CDATA[US Federal Tax]]></tax_name>
+					<tax_amount><![CDATA[0.0150]]></tax_amount>
+				</tax>
+				<tax>
+					<tax_rate><![CDATA[1.0000]]></tax_rate>
+					<tax_name><![CDATA[Global Tax]]></tax_name>
+					<tax_amount><![CDATA[0.0100]]></tax_amount>
+				</tax>
+				<tax>
+					<tax_rate><![CDATA[8.8800]]></tax_rate>
+					<tax_name><![CDATA[California Bankruptcy Tax]]></tax_name>
+					<tax_amount><![CDATA[0.0888]]></tax_amount>
+				</tax>
+				<tax>
+					<tax_rate><![CDATA[0.2376]]></tax_rate>
+					<tax_name><![CDATA[Seal Beach Awesomeness Tax]]></tax_name>
+					<tax_amount><![CDATA[0.0024]]></tax_amount>
+				</tax>
+			</taxes>
+			<discounts>
+				<discount>
+					<code><![CDATA[asdf]]></code>
+					<valid_categories/>
+					<name><![CDATA[$5 off all orders over $5!]]></name>
+					<amount><![CDATA[-5]]></amount>
+					<display><![CDATA[-5.00]]></display>
+					<coupon_discount_type><![CDATA[price_amount]]></coupon_discount_type>
+					<coupon_discount_details><![CDATA[5-5]]></coupon_discount_details>
+				</discount>
+			</discounts>
+			<attributes>
+				<attribute>
+					<name><![CDATA[Order Notes]]></name>
+					<value><![CDATA[This was a phone-in order]]></value>
+				</attribute>
+				<attribute>
+					<name><![CDATA[Tracking #]]></name>
+					<value><![CDATA[95445848744564]]></value>
+				</attribute>
+			</attributes>
+			<customer_password><![CDATA[912ec803b2ce49e4a541068d495ab570]]></customer_password>
+			<custom_fields>
+				<custom_field>
+					<custom_field_name><![CDATA[example_hidden]]></custom_field_name>
+					<custom_field_value><![CDATA[value_1]]></custom_field_value>
+					<custom_field_is_hidden><![CDATA[1]]></custom_field_is_hidden>
+				</custom_field>
+				<custom_field>
+					<custom_field_name><![CDATA[Hidden_Value]]></custom_field_name>
+					<custom_field_value><![CDATA[My Name Is_Jonas©;&amp;texture &amp;_ smoothness=rough||929274e2c2b22d8d51540d8bf657eef133121d7e67c05284687edcd8bfdcd946]]></custom_field_value>
+					<custom_field_is_hidden><![CDATA[1]]></custom_field_is_hidden>
+				</custom_field>
+			</custom_fields>
+			<transaction_details>
+				<transaction_detail>
+					<product_name><![CDATA[Example Subscription]]></product_name>
+					<product_price><![CDATA[10.00]]></product_price>
+					<product_quantity><![CDATA[1]]></product_quantity>
+					<product_weight><![CDATA[4.000]]></product_weight>
+					<product_code><![CDATA[xyz456]]></product_code>
+					<downloadable_url><![CDATA[]]></downloadable_url>
+					<sub_token_url><![CDATA[https://themancan.foxycart.com/cart?sub_token=8b13b7e14f3f5c9a710f7bb22cab9a2d]]></sub_token_url>
+					<subscription_frequency><![CDATA[1m]]></subscription_frequency>
+					<subscription_startdate><![CDATA[2010-08-19]]></subscription_startdate>
+					<subscription_nextdate><![CDATA[2010-09-19]]></subscription_nextdate>
+					<subscription_enddate><![CDATA[2013-01-01]]></subscription_enddate>
+					<is_future_line_item>0</is_future_line_item>
+					<shipto><![CDATA[Me]]></shipto>
+					<category_description><![CDATA[Default for all products]]></category_description>
+					<category_code><![CDATA[DEFAULT]]></category_code>
+					<product_delivery_type><![CDATA[shipped]]></product_delivery_type>
+					<transaction_detail_options>
+						<transaction_detail_option>
+							<product_option_name><![CDATA[color]]></product_option_name>
+							<product_option_value><![CDATA[red]]></product_option_value>
+							<price_mod><![CDATA[-4.000]]></price_mod>
+							<weight_mod><![CDATA[0.000]]></weight_mod>
+						</transaction_detail_option>
+					</transaction_detail_options>
+				</transaction_detail>
+				<transaction_detail>
+					<product_name><![CDATA[Example Product with Hex and Plus Spaces]]></product_name>
+					<product_price><![CDATA[10.00]]></product_price>
+					<product_quantity><![CDATA[10]]></product_quantity>
+					<product_weight><![CDATA[4.000]]></product_weight>
+					<product_code><![CDATA[abc123zzz]]></product_code>
+					<downloadable_url><![CDATA[]]></downloadable_url>
+					<sub_token_url><![CDATA[]]></sub_token_url>
+					<subscription_frequency><![CDATA[]]></subscription_frequency>
+					<subscription_startdate><![CDATA[0000-00-00]]></subscription_startdate>
+					<subscription_nextdate><![CDATA[0000-00-00]]></subscription_nextdate>
+					<subscription_enddate><![CDATA[0000-00-00]]></subscription_enddate>
+					<shipto><![CDATA[Me]]></shipto>
+					<category_description><![CDATA[Discount: Price: Percentage]]></category_description>
+					<category_code><![CDATA[discount_price_percentage]]></category_code>
+					<product_delivery_type><![CDATA[shipped]]></product_delivery_type>
+					<transaction_detail_options>
+						<transaction_detail_option>
+							<product_option_name><![CDATA[color]]></product_option_name>
+							<product_option_value><![CDATA[red]]></product_option_value>
+							<price_mod><![CDATA[-4.000]]></price_mod>
+							<weight_mod><![CDATA[0.000]]></weight_mod>
+						</transaction_detail_option>
+						<transaction_detail_option>
+							<product_option_name><![CDATA[Quantity Discount]]></product_option_name>
+							<product_option_value><![CDATA[-$1.10]]></product_option_value>
+							<price_mod><![CDATA[-1.100]]></price_mod>
+							<weight_mod><![CDATA[0.000]]></weight_mod>
+						</transaction_detail_option>
+						<transaction_detail_option>
+							<product_option_name><![CDATA[Price Discount Amount]]></product_option_name>
+							<product_option_value><![CDATA[-5%]]></product_option_value>
+							<price_mod><![CDATA[-0.245]]></price_mod>
+							<weight_mod><![CDATA[0.000]]></weight_mod>
+						</transaction_detail_option>
+					</transaction_detail_options>
+				</transaction_detail>
+			</transaction_details>
+			<shipto_addresses>
+				<shipto_address>
+					<address_id><![CDATA[73]]></address_id>
+					<address_name><![CDATA[Me]]></address_name>
+					<shipto_first_name><![CDATA[Mother]]></shipto_first_name>
+					<shipto_last_name><![CDATA[Dearest]]></shipto_last_name>
+					<shipto_company><![CDATA[The Family Stone]]></shipto_company>
+					<shipto_address1><![CDATA[¡Fü Bár!]]></shipto_address1>
+					<shipto_address2><![CDATA[]]></shipto_address2>
+					<shipto_city><![CDATA[seal beach]]></shipto_city>
+					<shipto_state><![CDATA[CA]]></shipto_state>
+					<shipto_postal_code><![CDATA[90740]]></shipto_postal_code>
+					<shipto_country><![CDATA[US]]></shipto_country>
+					<date_created><![CDATA[2010-08-19 13:58:53]]></date_created>
+					<date_modified><![CDATA[2010-08-19 13:58:53]]></date_modified>
+					<shipto_shipping_service_description><![CDATA[USPS Express Mail Flat Rate Envelope Hold For Pickup]]></shipto_shipping_service_description>
+					<shipto_subtotal><![CDATA[52.55]]></shipto_subtotal>
+					<shipto_tax_total><![CDATA[0.12]]></shipto_tax_total>
+					<shipto_shipping_total><![CDATA[21.6]]></shipto_shipping_total>
+					<shipto_total><![CDATA[78.60]]></shipto_total>
+					<shipto_custom_fields/>
+				</shipto_address>
+			</shipto_addresses>
+		</transaction>
+	</transactions>
+</foxydata>
