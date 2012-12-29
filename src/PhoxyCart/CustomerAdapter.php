@@ -2,7 +2,7 @@
 
 namespace PhoxyCart;
 
-class CustomerAdapter
+class CustomerAdapter implements CustomerAdapterInterface
 {
     private $api;
 
