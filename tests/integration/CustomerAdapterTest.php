@@ -43,4 +43,16 @@ class CustomerAdapterTest extends PHPUnit_Framework_TestCase
 
         $this->assertTrue($result);
     }
+
+    /**
+     * @test
+     */
+    public function ShouldRecordPreviousMessage()
+    {
+        $adapter = new PhoxyCart\CustomerAdapter();
+        $adapter->getCustomer('doesnotexist');
+
+        $message = $adapter->errorMessage();
+        $this->assertContains("Customer Not Found", $message);
+    }
 }

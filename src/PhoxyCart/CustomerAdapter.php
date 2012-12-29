@@ -5,7 +5,8 @@ namespace PhoxyCart;
 class CustomerAdapter implements CustomerAdapterInterface
 {
     private $api;
-
+    private $message;
+    
     public function __construct()
     {
         $this->api = new FoxycartApi();
@@ -14,6 +15,7 @@ class CustomerAdapter implements CustomerAdapterInterface
     public function getCustomerList()
     {
         $response = $this->api->call('customer_list');
+        $this->storeMessage($response);
 
         $customers = array();
         foreach ($response->customers->customer as $customer) {
@@ -29,6 +31,8 @@ class CustomerAdapter implements CustomerAdapterInterface
         $response = $this->api->call('customer_get',
             array('customer_email' => $email)
         );
+        print_r($response);
+        $this->storeMessage($response);
         return $response;
     }
 
@@ -39,6 +43,17 @@ class CustomerAdapter implements CustomerAdapterInterface
             'customer_password_hash' => $hash,
             'customer_password_salt' => $salt
         ));
+        $this->storeMessage($response);
         return $response->result == 'SUCCESS';
+    }
+
+    public function errorMessage()
+    {
+        return $this->message;
+    }
+
+    private function storeMessage($response)
+    {
+        $this->message = (string)$response->messages->message;
     }
 }
