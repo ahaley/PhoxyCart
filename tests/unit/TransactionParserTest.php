@@ -23,6 +23,22 @@ class TransactionParserTest extends PHPUnit_Framework_TestCase
         $adapter = new PhoxyCart\TransactionParser();
         $transactions = $adapter->parse($this->getTransactionXml());
         $transaction = $transactions[0];
+        $customer = $transaction->customer;
+        $this->assertEquals('Jörgé •™¡ªº', $customer->first_name);
+    }
+
+    /**
+     * @test
+     */
+    public function ShouldParseAddress()
+    {
+        $adapter = new PhoxyCart\TransactionParser();
+        $transactions = $adapter->parse($this->getTransactionXml());
+        $transaction = $transactions[0];
+        $customer = $transaction->customer;
+        $address = $customer->customer_address;
+        $this->assertEquals('&amp;', $address->address1);
+        $this->assertEquals('', $address->address2);
     }
 
     private function getTransactionXml()
