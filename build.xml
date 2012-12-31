@@ -10,7 +10,12 @@
   </target>
 
   <target name="config">
-    <property file="build.properties"/>
+    <if>
+      <not><isset property="foxycart.token"/></not>
+      <then>
+        <property file="build.properties"/>
+      </then>
+    </if>
     <copy file="config/config.php.in" tofile="config/config.php"
       overwrite="true">
       <filterchain>
