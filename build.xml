@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="PhoxyCart" default="build">
+
+  <target name="build" depends="config">
+  </target>
+
+  <target name="clean">
+    <delete file="config/config.php"/>
+  </target>
+
+  <target name="config">
+    <property file="build.properties"/>
+    <copy file="config/config.php.in" tofile="config/config.php"
+      overwrite="true">
+      <filterchain>
+        <expandproperties/>
+      </filterchain>
+    </copy>
+  </target>
+
+</project>

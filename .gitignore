@@ -1,1 +1,3 @@
 *.swp
+build.properties
+config/config.php

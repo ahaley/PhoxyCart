@@ -1,0 +1,4 @@
+<?php
+
+define('FOXYCART_TOKEN', '${foxycart.token}');
+define('FOXYCART_DOMAIN', '${foxycart.domain}');
