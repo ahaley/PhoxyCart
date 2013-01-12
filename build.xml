@@ -9,6 +9,17 @@
     <delete file="config/config.php"/>
   </target>
 
+  <target name="unit-tests">
+    <phpunit bootstrap="tests/Bootstrap.php" haltonfailure="true">
+      <formatter type="summary" usefile="false"/>
+      <batchtest>
+        <fileset dir="tests/unit">
+          <include name="**/*Test.php"/>
+        </fileset>
+      </batchtest>
+    </phpunit>
+  </target>
+
   <target name="config">
     <if>
       <not><isset property="foxycart.token"/></not>
