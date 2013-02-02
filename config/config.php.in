@@ -2,3 +2,4 @@
 
 define('FOXYCART_TOKEN', '${foxycart.token}');
 define('FOXYCART_DOMAIN', '${foxycart.domain}');
+define('DATAFEED_URL', '${datafeed_url}');
